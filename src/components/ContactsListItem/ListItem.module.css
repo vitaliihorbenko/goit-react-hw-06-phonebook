@@ -1,0 +1,25 @@
+.deleteBtn {
+  background-color: rgb(229, 155, 155);
+  border-radius: 5px;
+  border: 0;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.deleteBtn:hover {
+  background-color: rgb(255, 86, 44);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.contactName {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 5px;
+  list-style-type: none;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: 600;
+}

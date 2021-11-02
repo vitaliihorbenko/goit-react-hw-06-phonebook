@@ -1,0 +1,28 @@
+.label {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+input {
+  margin-left: 30px;
+}
+
+.addBtn {
+  padding: 10px 20px 10px 20px;
+  background-color: rgb(162, 255, 144);
+  border-radius: 5px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.addBtn:hover {
+  background-color: rgb(96, 201, 75);
+  transition: all 0.2s;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
